@@ -486,3 +486,12 @@ border-right: 1px solid rgba(255,255,255,.2)!important;
 button.buttonWrapper-1ZmCpA.da-buttonWrapper.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow.noFocus-2C7BQj.da-noFocus {
     display: none;
 }
+.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 {
+    border: #6b6b6b solid 1.45px;
+    background: #3f4042;
+    border-radius: 5px;
+}
+button.button-14-BFJ.da-button.enabled-2cQ-u7.da-enabled.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow {
+    border: #6b6b6b solid 1px;
+    border-radius: 0px;
+}
