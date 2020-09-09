@@ -1,0 +1,98 @@
+<style>
+  button {
+    margin: 18px 0 0 5px;
+    outline: none!important;
+  }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+input {
+cursor: pointer!important;
+}
+button {
+cursor: pointer!important;
+}
+  h1 {
+    cursor: default;
+  }
+  h {
+    cursor: default;
+  }
+  .btn {
+	padding: 1rem 1.5rem;
+	font-size: 1rem;
+	font-weight: 500;
+	text-transform: none;
+	line-height: 1;
+	color: white;
+	background-color: #00c4ff;
+	border: 0px solid transparent;
+	border-radius: .5rem;
+	box-shadow: 0 .5rem 1rem #0002, 0 .25rem .5rem #0004;
+	transition: box-shadow .2s, transform .2s, background-color .2s;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (any-hover: hover) {
+	.btn:hover {
+		background-color: #00a9dc;
+		box-shadow: 0 1rem 2rem #0002, 0 .5rem 1rem #0004;
+		transform: translateY(-.125rem);
+	}
+}
+
+.btn:active {
+	background-color: #00c4ff;
+	box-shadow: 0 .25rem .5rem #0002, 0 .125rem .25rem #0004;
+	transform: translateY(.125rem);
+}
+
+.ripple {
+	position: relative;
+	overflow: hidden;
+	transform: translate3d(0, 0, 0);
+}
+
+.ripple:hover:after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	opacity: 0;
+	background: radial-gradient(circle, white 10%, transparent 10.01%) no-repeat;
+	background-position: 50%;
+	transform: scale(10, 10);
+	transition: transform .5s, opacity 1s;
+}
+
+.ripple:active:after {
+	transform: scale(0, 0);
+	opacity: .3;
+	transition: 0s;
+}
+</style>
+
+<div class="footer">
+  <p>made on iOS and Windows by John R.</p>
+</div>
+<style>* { font-family: sans-serif; }</style>
+<h1>checkboxes grid</h1>
+<h>html + css 15x15 checkbox grid with material design for procrastination</h>
+<div></div>
+<label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><div></div><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label><label><input type="checkbox" name="myCheckbox"></label> <div></div> 
+
+<button 
+       class="btn ripple" onclick="location.reload()">reset</button>
+<button class="btn ripple" name="nothing">do nothing</button>
